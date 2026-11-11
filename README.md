@@ -1,9 +1,7 @@
 # endpoint-watch
 
-A small, dependency-free HTTP health checker with text and JSON reports.
-
-一个轻量的 HTTP 服务健康检查工具，由 [sainentl](https://github.com/sainentl) 维护。
-输入一个或多个服务地址，查看服务是否可达、最终状态码和响应耗时。适用于开发环境自检、部署验证和 CI 检查。
+轻量的 HTTP 服务健康检查工具。输入一个或多个服务地址，查看可达性、最终状态码和响应耗时，支持文本与 JSON 报告。
+适用于开发自检、部署验证和 CI 检查。
 
 ## 功能
 
@@ -102,4 +100,4 @@ GitHub Actions 在 Linux / Windows、Python 3.10 / 3.14 上运行测试，并验
 
 ## License
 
-[MIT](LICENSE) © 2026 sainentl.
+[MIT](LICENSE)
